@@ -13,7 +13,7 @@ const produtos = [
     },
     {
         nome: "Colchonete",
-      categoria: "Acessórios",
+      categoria: "Acessório",
       quantidade: 25,
       preco: 55.00
     },
@@ -43,10 +43,22 @@ const produtos = [
     },
     {
         nome: "Corda de pular",
-      categoria: "Acessórios",
+      categoria: "Acessório",
       quantidade: 30,
       preco: 35.00
-    }
+    },
+    {
+        nome: "Caneleira de peso",
+      categoria: "Musculação",
+      quantidade: 20,
+      preco: 60.00
+    },
+    {
+        nome: "Elástico de resistência",
+      categoria: "Acessório",
+      quantidade: 50,
+      preco: 45.00
+    },
   ];
 
   const corpoTabela = document.getElementById("corpoTabela")
